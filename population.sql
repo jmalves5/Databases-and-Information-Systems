@@ -1,4 +1,4 @@
---Now that every table is created let's fill them
+﻿--Now that every table is created let's fill them
 
 
 --This populates Patient table
@@ -111,36 +111,36 @@ insert into Reading values(54646, 'Novartis', '2017-10-30 16:30:13', '95');
 --This populates Time table
 
 insert into Period values ('2010-09-20 11:50:22', '2013-01-20 10:40:53');
-insert into Period values ('2011-01-20 00:30:13', '2017-10-13 20:50:23');
-insert into Period values ('2015-02-12 21:10:01', '2017-02-15 09:15:12');
-insert into Period values ('2011-08-23 17:34:31', '2017-10-25 10:15:13');
-insert into Period values ('2011-08-23 17:34:31', '2017-10-30 16:30:15');
+insert into Period values ('2011-01-20 00:30:13', '2018-10-13 20:50:23');
+insert into Period values ('2015-02-12 21:10:01', '2018-02-15 09:15:12');
+insert into Period values ('2011-08-23 17:34:31', '2018-10-25 10:15:13');
+insert into Period values ('2011-08-23 17:34:31', '2018-10-30 16:30:15');
 insert into Period values ('2014-04-05 12:16:23', '2014-10-18 17:26:11');
-insert into Period values ('2017-10-01 10:21:10', '2017-10-01 12:48:27');
-insert into Period values ('2016-08-15 17:23:09', '2017-02-16 22:42:11');
-insert into Period values ('2017-05-22 11:40:43', '2017-09-01 18:15:14');
-insert into Period values ('2011-02-21 14:20:15', '2017-07-13 10:50:33');
-insert into Period values ('2017-05-22 11:40:43', '2017-10-31 18:15:14');
+insert into Period values ('2017-10-01 10:21:10', '2018-10-01 12:48:27');
+insert into Period values ('2016-08-15 17:23:09', '2018-02-16 22:42:11');
+insert into Period values ('2017-05-22 11:40:43', '2018-09-01 18:15:14');
+insert into Period values ('2011-02-21 14:20:15', '2018-07-13 10:50:33');
+insert into Period values ('2017-05-22 11:40:43', '2018-10-31 18:15:14');
 insert into Period values ('2010-04-05 12:16:23', '2010-10-18 17:26:11');
 insert into Period values ('2011-01-20 00:30:13', '2014-11-13 20:50:23');
-insert into Period values ('2011-01-20 00:30:13', '2017-10-13 20:50:24');
+insert into Period values ('2011-01-20 00:30:13', '2018-10-13 20:50:24');
 
 --This populates Wears table
 
 insert into Wears values ('2010-09-20 11:50:22', '2013-01-20 10:40:53', 28484755, 48394, 'Samsung');
-insert into Wears values ('2011-01-20 00:30:13', '2017-10-13 20:50:23', 28484755, 45632, 'Medtronic');
-insert into Wears values ('2015-02-12 21:10:01', '2017-02-15 09:15:12', 28484755, 48394, 'Siemens');
+insert into Wears values ('2011-01-20 00:30:13', '2018-10-13 20:50:23', 28484755, 45632, 'Medtronic');
+insert into Wears values ('2015-02-12 21:10:01', '2018-02-15 09:15:12', 28484755, 48394, 'Siemens');
 insert into Wears values ('2010-04-05 12:16:23', '2010-10-18 17:26:11', 84853295, 45632, 'Medtronic');
-insert into Wears values ('2017-10-01 10:21:10', '2017-10-01 12:48:27', 84853295, 48394, 'Samsung');
+insert into Wears values ('2017-10-01 10:21:10', '2018-10-01 12:48:27', 84853295, 48394, 'Samsung');
 insert into Wears values ('2011-01-20 00:30:13', '2014-11-13 20:50:23', 87478283, 48993, 'Samsung');
-insert into Wears values ('2011-02-21 14:20:15', '2017-07-13 10:50:33', 48529837, 54646, 'Novartis');
-insert into Wears values ('2016-08-15 17:23:09', '2017-02-16 22:42:11', 48529837, 12231, 'Novartis');
-insert into Wears values ('2011-08-23 17:34:31', '2017-10-25 10:15:13', 53892894, 37847, 'Novartis');
+insert into Wears values ('2011-02-21 14:20:15', '2018-07-13 10:50:33', 48529837, 54646, 'Novartis');
+insert into Wears values ('2016-08-15 17:23:09', '2018-02-16 22:42:11', 48529837, 12231, 'Novartis');
+insert into Wears values ('2011-08-23 17:34:31', '2018-10-25 10:15:13', 53892894, 37847, 'Novartis');
 insert into Wears values ('2014-04-05 12:16:23', '2014-10-18 17:26:11', 53892894, 63467, 'Medtronic');
-insert into Wears values ('2011-02-21 14:20:15', '2017-07-13 10:50:33', 52935753, 73464, 'Samsung');
-insert into Wears values ('2015-02-12 21:10:01', '2017-02-15 09:15:12', 98678233, 64467, 'Medtronic');
+insert into Wears values ('2011-02-21 14:20:15', '2018-07-13 10:50:33', 52935753, 73464, 'Samsung');
+insert into Wears values ('2015-02-12 21:10:01', '2018-02-15 09:15:12', 98678233, 64467, 'Medtronic');
 insert into Wears values ('2011-01-20 00:30:13', '2014-11-13 20:50:23', 98678233, 98898, 'Siemens');
-insert into Wears values ('2011-01-20 00:30:13', '2017-10-13 20:50:23', 48529837, 48394, 'Samsung');	
+insert into Wears values ('2011-01-20 00:30:13', '2018-10-13 20:50:23', 48529837, 48394, 'Samsung');	
 UPDATE Wears SET snum=48394, manuf='Samsung' WHERE start ='2011-02-21 14:20:15' AND end ='2017-07-13 10:50:33' AND patient=52935753;
 
 --This populates Request table
