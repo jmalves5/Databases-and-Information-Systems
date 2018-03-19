@@ -1,4 +1,4 @@
-# Databases-and-Information-Systems
+# SIBD
 University Class Project - Project Statement, Report and Deliverables.
--Built a database, populated it and preformed required operations on it using MySQL.
--Created a set of HTML pages to communicate with the database using PHP.
+Database creation and manipulation using MySQL.
+Creation of HTML page set to interact with the database using PHP.
